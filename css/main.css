@@ -14,9 +14,9 @@ html {
 }
 
 .btn-ghost:hover {
-  border: 2.5px solid #fff;
-  background-color: #fff;
-  color: rgba(73, 85, 98, .9);
+  border: 2.5px solid #efefef;
+  background-color: #efefef;
+  color: #495562;
 }
 
 @media only screen and (min-width: 38em) {
@@ -34,11 +34,15 @@ html {
   }
 
   .banner-content {
+    background-image: linear-gradient(to top, rgba(73, 85, 98, 0.753), rgba(73, 85, 98, 0));
     position: absolute;
-    left: 2%;
-    bottom: 2%;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .btn-ghost {
+    border: 2.5px solid #efefef;
+    color: #fff;
   }
 
 }
-
-
