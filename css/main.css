@@ -4,10 +4,6 @@ html {
   background-color: #495562;
 }
 
-.banner {
-  max-height: 500px;
-}
-
 .btn-ghost {
   border: 2.5px solid #97a49b;
   color: #fff;
@@ -25,16 +21,20 @@ html {
     text-align: right;
   }
 
+  .banner-image {
+    max-height: 500px;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
 
-  .banner-image {
+  .banner {
     position: relative;
   }
 
   .banner-content {
-    background-image: linear-gradient(to top, rgba(73, 85, 98, 0.753), rgba(73, 85, 98, 0));
+    background-image: linear-gradient(to top, rgba(73, 85, 98, .753), rgba(73, 85, 98, .007));
     position: absolute;
     bottom: 0;
     width: 100%;
